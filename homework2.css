@@ -1,0 +1,38 @@
+#a{
+height: 300px;
+width: 20%;
+animation-name: ho;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes ho{
+0%{
+   background-image: url(Youtbe\ logo.png)
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+30%{
+    background-image: url("lola\ bd.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+50%{
+     background-image: url("Facebook Logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+100%{
+     background-image: url("lola\ bd.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+}
+#w{
+ background-color: aqua;
+ height: 40px; 
+ width: 30%;  
+}
+a:hover{
+    text-decoration:underline ;
+    color: blue;
+}

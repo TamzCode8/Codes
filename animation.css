@@ -1,0 +1,70 @@
+#Ani{
+  height: 300px;
+  width: 30%;
+  animation-name: Coding; 
+  animation-duration: 4s;
+  animation-iteration-count:infinite ;
+}
+@keyframes Coding{
+0%{
+    background-image: url("lola\ bd.JPG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+30%{
+ background-image: url("Chat\ Gpt.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;    
+}
+70%{
+    background-image: url("WIN_20250715_19_05_27_Pro.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+80%{
+    background-image: url("Channel7.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+100%{
+    background-image: url("Channel.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+}
+#An{
+height: 300px;
+  width: 30%;
+  animation-name: A; 
+  animation-duration: 4s;
+  animation-iteration-count:infinite ;    
+}
+@keyframes A{
+0%{
+background-color: rgb(255, 0, 0);    
+}
+30%{
+    background-color: rgb(255, 102, 0);
+}
+60%{
+    background-color: rgb(229, 255, 0);
+}
+80%{
+    background-color: rgb(21, 255, 0);
+}
+100%{
+background-color: rgb(0, 204, 255);
+}
+}
+ul li{
+    display: block;
+}
+ol{
+    display: none;
+}
+.Fri{
+    height: 90px;
+    width: 30%;
+    background-color: aquamarine;
+    opacity: 80%;
+}

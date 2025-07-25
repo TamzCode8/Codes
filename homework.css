@@ -1,0 +1,27 @@
+p{
+    color: green;
+    background-color: pink;
+    width: 70%;
+    height: 200px;
+}
+body{
+background-color: greenyellow;
+user-select: none;
+}
+#Form{
+width:100%;
+height: 200px;
+background-color: aqua;
+color: violet;
+}
+#Fm{
+    width: 80%;
+    height: 350px;
+    background-color: rgb(165, 43, 43);
+
+}
+::placeholder{
+    color: aqua;
+    background-color: green;
+}
+
